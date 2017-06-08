@@ -1,0 +1,54 @@
+
+.clear {
+  zoom: 1
+}
+
+.clear:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0
+}
+
+.item {
+    float: left;
+    width: 33%;
+    text-align: center;
+
+    font-size: .2rem;
+    margin-top: .5rem;
+}
+
+.toPre{
+    composes:item;
+    display: block;
+    color: #000;
+}
+
+.itemBg {
+    display: block;
+    width: .46rem;
+    height: .38rem;
+    margin: .16rem auto;
+}
+
+.addWelfare {
+    background: url("../../static/redpacket.png") no-repeat;
+    background-size: contain;
+    composes: itemBg;
+}
+
+.addPic {
+    background: url("../../static/shareimage.png") no-repeat;
+    background-size: contain;
+    composes: itemBg;
+}
+
+.preview {
+    background: url("../../static/newtag.png") no-repeat;
+    background-size: contain;
+    composes: itemBg;
+
+    width: .38rem;
+}

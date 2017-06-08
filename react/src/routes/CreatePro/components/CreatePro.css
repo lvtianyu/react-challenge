@@ -1,0 +1,49 @@
+.createpro {
+    position: relative;
+}
+
+.p {
+    height: .48rem;
+    line-height: .48rem;
+    font-size: .2rem;
+    padding: 0 .2rem;
+}
+
+.button {
+    width: 6.26rem;
+    height: 0.78rem;
+    margin: .6rem auto;
+    border-radius: 0.16rem;
+    color: #fff;
+}
+
+.buttonEnable {
+    composes: button;
+    background-color: #45e8cd;
+}
+
+.inputtext {
+    height: 1.06rem;
+    background-color: #fff;
+    line-height: 1.06rem;
+    padding: 0 .2rem;
+}
+
+.input {
+    text-align: center;
+    width: 80%;
+    height: .5rem;
+    line-height: .5rem;
+}
+
+.textdesc {
+    width: 100%;
+    min-height: 0;
+    height: 3rem;
+    padding: 0.2rem;
+    background-color: #fff;
+}
+
+.saveBox {
+    text-align: center;
+}

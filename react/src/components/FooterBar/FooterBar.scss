@@ -1,0 +1,49 @@
+ @import '../../styles/_base.scss';
+
+ //公共样式
+
+ //第一个样式
+ .route--active {
+   font-weight: bold;
+   text-decoration: underline;
+ }
+ 
+ .footerbar {
+   border-top: 1px solid $bordergrey;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   padding: 0.1rem;
+   background-color: #fff;
+   text-align: center;
+ }
+ 
+ .footerbar .button {
+   width: 33.3%;
+   float: left;
+ }
+ 
+//  .footerbar .finishbtn span {
+//   background: url("../../static/finishbtn.png");
+//  }
+ .footerbar .agreebtn span {
+  background: url("../../static/agreebtn.png");
+ }
+ .footerbar .messagebtn span {
+  background: url("../../static/leavemessage.png");
+ }
+
+
+ .footerbar .button span {
+   width: 0.36rem;
+   height: 0.36rem;
+   display: inline-block;
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+ 
+ .footerbar a{
+   color: #b3b3b3;
+ }
+
+//第二套样式

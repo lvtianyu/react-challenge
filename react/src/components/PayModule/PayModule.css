@@ -1,0 +1,79 @@
+.cover {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.clear {
+    zoom: 1
+}
+
+.clear:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.panel {
+    composes: clear;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -40%;
+    margin-top: -.5rem;
+    width: 80%;
+    background-color: #fff;
+    border-radius: .2rem;
+    text-align: center;
+    padding: 0 .2rem;
+}
+
+.title {
+    font-size: .3rem;
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+}
+
+.pContent {
+    font-size: .25rem;
+    color: #b2b2b2;
+    height: .85rem;
+    line-height: .3rem;
+    padding-top: .1rem;
+    margin: .2rem 0;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.btn {
+    width: 5.43rem;
+    height: .56rem;
+    margin: 0;
+    color: #fff;
+    margin-bottom: .25rem;
+    background-color: #31e2cb;
+    border-radius: .1rem;
+}
+
+.rightspan {
+    display: inline-block;
+    width: 1rem;
+    text-align: right;
+}
+
+.label {
+    border-bottom: 1px solid #b2b2b2;
+    display: inline-block;
+    height: .5rem;
+}
+
+.money {
+    text-align: center;
+    width: 50%;
+}

@@ -1,0 +1,89 @@
+@import "../../../styles/core.scss";
+.finishShow{
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+
+.showResult{
+    width:100%;
+    height: 40%;
+}
+
+.showResult>div{
+    width: inherit;
+    height: 100%;
+    padding-top: 16%;
+}
+.showResult>div>span{
+    display: block;
+    width: inherit;
+    color: #aaa;
+    font-size: .36rem
+}
+.showResult>div>img{
+    width: 1.45rem;
+    margin-top: .5rem
+}
+
+.comeBackHome{
+    height: 1rem;
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+   background-color: #fff;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   color: #b3b3b3
+}
+.comeBackHome>span{
+    display: block;
+    width: inherit;
+    height: .36rem;
+    margin-bottom: .1rem;
+}
+.comeBackHome>span>img{
+    height: .36rem;
+}
+.comeBackHome b{
+    height:.18rem;
+    line-height: .18rem;
+    font-size: .18rem;
+}
+
+.showPictureList{
+    width: 100%;
+    height: 60%;
+    text-align: left
+}
+.showPictureList>p{
+    width: 100%;
+    height: .5rem;
+    padding-left: .3rem;
+    margin-bottom: .2rem;
+}
+.showPictureList>p>img{
+   height: .4rem;
+   vertical-align: middle
+}
+.showPictureList>p>span{
+    display: inline-block;
+    height: .4rem;
+    line-height: .45rem;
+    vertical-align: middle;
+    margin-left: .1rem;
+
+}
+
+.showPictureListBottom{
+      padding-bottom: 1.1rem;
+}
+.photographShow{
+    width: inherit;
+    height: 100%;
+    padding-bottom: .45rem;
+     text-align: center;
+
+}
+

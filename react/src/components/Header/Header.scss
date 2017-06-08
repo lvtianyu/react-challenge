@@ -1,0 +1,39 @@
+.titlebar {
+  border-bottom: 1px solid #f8f8f8;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.headerimg {
+  height: 0.96rem;
+  width: 0.96rem;
+  margin: 0.1rem;
+  border-radius: 50%;
+}
+
+.text {
+  position: absolute;
+  height: 0.48rem;
+  text-align: left;
+}
+
+.name {
+  top: .2rem;
+  font: normal 300 0.32rem arial, sans-serif;
+}
+
+.date {
+  top: .63rem;
+  font-size: 0.24rem;
+  color: #aaa;
+}
+
+.flag {
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  margin: .25rem .1rem 0 0;
+  display: inline-block;
+  background-size: contain;
+}

@@ -1,0 +1,113 @@
+@import "../../../styles/core.scss";
+body{
+    background-color: #fff;
+}
+
+.List,.List>div,ul{
+    width:100%;
+}
+.List ul{
+    border-bottom: 1px solid #eee;
+}
+.List ul>li {
+    height:1.04rem;
+    width:inherit
+}
+
+.List li>div{
+    height:inherit;
+    width:1.15rem;
+    line-height: 1.04rem;
+    @extend .fl;
+    @extend .text-center;
+}
+.List li>div>img{
+    height:.85rem;
+    width:0.85rem;
+    border-radius: 50%;
+    margin-top: .1rem
+}
+.List li>span,li>b{
+    display: block;
+    height: inherit;
+    line-height: 1.04rem;
+    font-size: 0.31rem;
+    color:#545454;
+    font-weight: 100;
+}
+.List li>span{
+    text-align: left;
+    @extend .fl;
+}
+.List li>b{
+    text-align: right;
+    @extend .fr;
+    margin-right: .35rem;
+}
+.oddLi{
+    background-color: #fafafa;
+}
+
+.belowFetching{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+}
+
+.belowFetching>div,.belowFetching>span{
+    width: 50%;
+    height: 1rem;
+    float: left;
+    position: relative;
+
+}
+.belowFetching>div{
+    text-align: right;
+    overflow: hidden
+}
+
+.belowFetching>span{
+    line-height: 1rem;
+    display: inline-block;
+        text-align: left;
+        color:#aaa;
+        font-size: 18;
+}
+
+.belowFetching>div>i{
+    position: absolute;
+    background-color: #fff;
+        left: 80%;
+}
+.belowFetching>div>i>div{
+    border: 3px solid transparent;
+    height: 25px;
+    width: 25px;
+        border-top-color: rgb(200, 200, 200);
+    border-left-color: rgb(200, 200, 200);
+    border-bottom-color: rgb(200, 200, 200);
+}
+.nothingNotice{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    text-align: center
+}
+.nothingNotice>p{
+    width: 80%;
+    display: inline-block;
+    height: 50%;
+    margin-top: 35%;
+    line-height: 50px
+}
+.nothingNotice span{
+    display: inline-block;
+    color: #fff;
+    background-image: linear-gradient(to right, #2CCCCB, #45E8CD);
+    background-image: -webkit-linear-gradient(to right, #2CCCCB, #45E8CD);
+        height: .35rem;
+    line-height: .35rem;
+    border-radius: 2px;
+}

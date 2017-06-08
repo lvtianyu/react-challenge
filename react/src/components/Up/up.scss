@@ -1,0 +1,66 @@
+.UpTop{
+    
+     animation: upTop .8s  linear;
+    -webkit-animation: upTop .8s  linear;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards
+
+}
+
+@-webkit-keyframes upTop {
+    0% {
+           bottom: -1rem;
+
+    }
+    to {
+            bottom: 1rem;
+
+    }
+}
+
+@keyframes upTop {
+   0% {
+           bottom: -1rem;
+
+    }
+    to {
+            bottom: 1rem;
+
+    }
+}
+
+.UpTopHid{
+        animation: downTop .8s  linear;
+    -webkit-animation: downTop .8s  linear;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards
+}
+
+.UpTop,.UpTopHid{
+    position: fixed;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
+    right: .1rem;
+}
+
+@-webkit-keyframes downTop {
+    0% {
+            bottom: 1rem;
+    }
+    to {
+            bottom: -1rem;
+    }
+}
+
+@keyframes downTop {
+   0% {
+            bottom: 1rem;
+
+    }
+    to {
+           bottom: -1rem;
+
+    }
+}

@@ -1,0 +1,114 @@
+@import 'base';
+@import '~normalize.css/normalize';
+//公共样式层
+//公共样式
+html {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html,
+body,
+ul,
+div,
+p,
+span,
+b,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+ul>li {
+  list-style: none;
+}
+
+body {
+  color: #333;
+  height: 100%;
+  font-size: 0.28rem;
+  background-color: #fafafa;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+  height: 100%;
+}
+
+.core-layout__viewport {
+  height: 100%;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+//将input默认属性更改
+input {
+  border-width: 0px;
+  padding: 0px;
+  border-style: none;
+}
+
+input:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+  outline-offset: none;
+}
+
+.clear {
+  zoom: 1
+}
+
+.clear:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */
+}
+
+textarea {
+  resize: none;
+}
+
+//图片的滤镜效果
+.filterImg {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+//用到overflow 的地方进行滑动的请加上此属性，解决iOS兼容性
+@mixin overflowScroll {
+  -webkit-overflow-scrolling: touch;
+}
